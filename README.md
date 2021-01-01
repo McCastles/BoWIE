@@ -25,7 +25,7 @@
 │       ├── v2_Annotations_Train_mscoco.zip (absent)
 │       └── v2_Questions_Train_mscoco.zip (absent)
 ├── Gallery
-│   ├── (some pics)
+│   └── (some pics)
 ├── Notebooks
 │   ├── scripts
 │   │   └── (empty)
@@ -38,6 +38,17 @@
     └── 30.5.pt
 </pre>
 
+## Todo
+
+* Pure BoW vs W2V comarison
+* Linear Layer matrix splitting into textual and visual parts
+* Different metrics instead of a silly accuracy
+* Data statistics
+* Make sure the same pics ids don't end up in the same train/valid/test split
+* Different questions for the same picture, vise versa
+* Score > 30% ?
+* Good README with references
+
 ## Demo
 ![alt text](https://github.com/McCastles/BoWIE/blob/main/Gallery/1.png "1")
 
@@ -47,6 +58,3 @@
 
 ![alt text](https://github.com/McCastles/BoWIE/blob/main/Gallery/4.png "4")
 
-
-
-## Todo
