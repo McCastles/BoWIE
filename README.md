@@ -35,21 +35,13 @@
 │   └── TrainBOWIMG.ipynb
 ├── README.md
 └── Weights
-    └── 30.5.pt
+    └── 443700_emb_ep_3_34.0.pt
 </pre>
 
-## Todo
-
-* Pure BoW vs W2V comarison
-* Linear Layer matrix splitting into textual and visual parts
-* Different metrics instead of a silly accuracy
-* Data statistics
-* Make sure the same pics ids don't end up in the same train/valid/test split
-* Different questions for the same picture, vise versa
-* Score > 30% ?
-* Good README with references
 
 ## Demo
+( more examples: [Demo section](https://github.com/McCastles/BoWIE/blob/main/Notebooks/TrainBOWIMG.ipynb) )
+
 ![alt text](https://github.com/McCastles/BoWIE/blob/main/Gallery/1.png "1")
 
 ![alt text](https://github.com/McCastles/BoWIE/blob/main/Gallery/2.png "2")
@@ -58,3 +50,14 @@
 
 ![alt text](https://github.com/McCastles/BoWIE/blob/main/Gallery/4.png "4")
 
+
+## Todo
+
+* [Done] Pure BoW vs W2V comarison
+* [Done] Linear Layer matrix splitting into textual and visual parts
+* [Done] Different metrics instead of a silly accuracy
+* Data statistics
+* Make sure the same pics ids don't end up in the same train/valid/test split
+* Different questions for the same picture, vise versa
+* Split questions by type, score for each type (yes/no, number, other)
+* Good README with references
